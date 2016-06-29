@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataConfiguration xmln="abcefg12345" xmlns:xsi="12345abcefg" xsi:schemaLocation="12345abcefg12345abcefg">
+  <Hosts>
+    <Sites>
+        <Site Name="ss">
+            <Host Id="aa">
+                <Address Host="www.www.com"> </Address>
+            </Host>
+            <Host Id="ee">
+                <Address Host="www.www.com"> </Address>
+            </Host>
+            <Host Id="dd">
+                <Address Host="www.www.com"> </Address>
+            </Host> 
+            <Host Id="pp">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com/"/>
+            </Host>
+            <Host Id="ss">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+            </Host> 
+            <Host Id="561">
+                <Address Host="www.www.com"> </Address>
+            </Host> 
+        </Site>
+        <Site Name="hihi">
+            <Host Id="cc">
+                <Address Host="www.www.com"> </Address>
+            </Host>
+            <Host Id="sdD">
+                <Address Host="www.www.com"> </Address>
+            </Host>
+            <Host Id="8uj">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+
+            </Host>
+            <Host Id="222">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>               
+            </Host>
+            <Host Id="hhh">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+            </Host>
+            <Host Id="hhh">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+            </Host>             
+        </Site>     
+    </Sites>
+            <Host Id="hhh">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+            </Host>
+            <Host Id="hhh">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+            </Host>
+            <Host Id="hhh">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+            </Host>         
+            <Host Id="hhh">
+                <Address Scheme="ppp" Host="www.www.com" Path="www.www.com"/>
+            </Host>
+
+</Hosts>
+<DataPools>
+    <DataPool Id="sss" default="sure">
+        <DataGroup Id="sss" Parent="aaa" UserCanSelectHost="sure" >
+            <HostId Parent="hhhh">I'm breaking here</HostId>
+            <DataSources>
+                <empty/>
+            </DataSources>
+        </DataGroup>
+        <DataGroup Id="ccc" UserCanSelectHost="whynot" >
+            <HostId>God I'm breaking here again, i hope you can fix me</HostId>
+            <DataSources>
+                <empty/>
+            </DataSources>
+        </DataGroup>
+        <DataGroup Id="sss" UserCanSelectHost="yessure" >
+            <HostId>cry face</HostId>
+                <webfg displaygroup="sss" provider="sss" id="ccc" principal="ccc" nioarc="ccc" nap="ccc" group="ccc">
+                </webfg>
+
+                <nhood port="1234"/>
+            <ServerNames>
+              <!-- insert comment -->
+              <!-- insert comment -->
+              <!-- insert comment -->
+              <ServerName>myname</ServerName>
+              <ServerName>yourname</ServerName>
+            </ServerNames>
+            <!-- insert comment -->
+            <Implementations>
+              <Implementation>
+                <Name>yourname</Name>
+                <Type>typeme</Type>
+                <Assembly>visionme</Assembly>
+                <Path>ohno</Path>
+              </Implementation>
+            </Implementations>-->
+                <cfgman port="ccc" />               
+                <webservice provider="ccc"  />
+                <webservice provider="ccc"  />
+                <webservice provider="ccc"  />
+                    <parameters>
+                        <useeventpush value="ccc"/>
+                    </parameters>
+                <webservice provider="ccc"  />
+                        <pollingFrequency value="1000"/>
+        </DataGroup>
+    </DataPool>
+    <DataGroup Id="ccc " UserCanSelectHost="ccc" >
+        <DataGroup Id="ccc " UserCanSelectHost="ccc" >
+            <HostId>idk</HostId>
+            <DataSources>
+                <empty/>
+            </DataSources>
+        </DataGroup>
+        <DataGroup Id="ccc " UserCanSelectHost="ccc" >
+            <HostId>idk</HostId>
+            <DataSources>
+                <empty/>
+            </DataSources>
+        </DataGroup>
+        <DataGroup Id="default" UserCanSelectHost="true" >
+            <HostId>idk</HostId>
+        </DataGroup>
+    </DataGroup>    
+</DataPools>    
+</DataConfiguration>
